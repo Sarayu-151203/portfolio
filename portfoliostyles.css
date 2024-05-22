@@ -1,0 +1,134 @@
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #333;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 3em;
+    color:white;
+}
+nav a {
+    text-decoration: none;
+    color:red; /* White text color for anchor tags */
+    font-size: 1.2em;
+    margin: 0 15px;
+}
+
+
+
+/* Sections */
+section {
+    padding: 20px 0;
+}
+
+.center {
+    text-align: center;
+}
+
+/* About Section */
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Portfolio Section */
+#myportfolio p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    background-color: blanchedalmond;
+}
+
+/* Skills Section */
+#skills p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+#myportfolio p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+#skills {
+    padding: 20px;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 30%;
+    text-align: center;
+}
+
+.skill p {
+    margin: 10px 0;
+}
+.progress-bar {
+    width: 0; /* Default width */
+    height: 30px;
+    text-align: center;
+    line-height: 30px; /* Vertically center the text */
+    color: white;
+    font-weight: bold;
+    transition: width 0.3s ease; /* Smooth transition for width change */
+    border-radius: 25px 0 0 25px; /* Rounded corners for the left side */
+}
+
+/* Specific Progress Bar Colors */
+.html-bar {
+    background-color: #4CAF50;
+    width: 90%; /* HTML skill level */
+}
+
+.css-bar {
+    background-color: #2196F3;
+    width: 80%; /* CSS skill level */
+}
+
+.js-bar {
+    background-color: #f0db4f;
+    width: 70%; /* JavaScript skill level */
+}
+
+
+
+/* Contact Section */
+#contact p {
+    font-size: 1.1em;
+}
+/* Footer */
+.jug {
+    background-color: #333; /* Background color for the jug div */
+    color: #fff; /* Text color for better contrast */
+    padding: 10px 0; /* Padding for some space inside the div */
+    text-align: center; /* Center align text */
+}
+
+.jug p {
+    margin: 0; /* Remove default margin */
+}
+
